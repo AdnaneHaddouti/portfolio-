@@ -1,3 +1,5 @@
+// data.js
+
 import {
   mobile,
   backend,
@@ -12,19 +14,23 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
   meta,
-  starbucks,
   tangermed,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  oneeicon,
+  webpack,
+  php,
+  tangerm,
+  strapi,
+  refferal,
+  docfilms,
+  annance,
+  blockchain,
+  solidity,
+
 } from "../assets";
 
-export const navLinks = [
+const navLinks = [
   {
     id: "about",
     title: "About",
@@ -34,18 +40,22 @@ export const navLinks = [
     title: "Work",
   },
   {
-    id: "contact",
-    title: "Contact",
+    id: "project",
+    title: "Projects",
+  },
+  {
+    id: "tachnologies",
+    title: "Technologies",
   },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "DevOps Engineer",
     icon: mobile,
   },
   {
@@ -53,7 +63,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Frontend Developer",
     icon: creator,
   },
 ];
@@ -70,6 +80,14 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
+  },
+  {
+    name: "Solidity",
+    icon: solidity,
+  },
+  {
+    name: "PHP",
+    icon: php,
   },
   {
     name: "React JS",
@@ -103,159 +121,189 @@ const technologies = [
     name: "Meta",
     icon: meta,
   },
-
+  {
+    name: "Webpack",
+    icon: webpack,
+  },
 ];
 
 const experiences = [
   {
-    title: "Entry engineer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2019 - April 2020",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tanger Med",
+    title: "Full-stack developer - Internship",
+    company_name: "Tanger Med Port Authority (TMPA)",
+    date: "2 Mois | Tanger, Maroc",
     icon: tangermed,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Display the pop-up in the main context on the relevant website pages.",
+      "Allow users to input and submit reviews about the services.",
+      "Ensure that the pop-up interface is intuitive and straightforward for users to use.",
+      "Allow administrators to log in to the dashboard or table with secure credentials.",
+      "Present four surface-level statistics and analyses, similar to ratings.",
+      "Provide four filtering and sorting options to facilitate the search and management of reviews."
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Full-stack developer - Internship",
+    company_name: "National Office of Electricity and Drinking Water (ONEE)",
+    date: "1 Mois | Al-Hoceïma, Maroc",
+    icon: oneeicon,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining web applications using PHP and other related technologies.",
+      "Dashboard for effective management of advertisements.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Email messaging system for customer service."
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Application review",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "E-Commerce Application 'CosmétiqueProd'",
+    description: "This project, named 'CosmétiqueProd', is an E-Commerce application built with Node.js, Strapi (Headless CMS), React, and Material-UI. It enables users to explore and purchase cosmetic products.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
       {
         name: "Nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Strapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MUI",
         color: "white-text-gradient",
       },
-      {
-        name: "Material UI",
-        color: "pink-text-gradient",
-      },
     ],
-    image: carrent,
+    image: strapi,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Revision Management Application",
+    description: "Developed using UML, the MERN stack (MongoDB, Express.js, React, Node.js), Material UI, and Webpack, this application facilitates the efficient management of revisions. UML is employed for modeling, while the MERN stack ensures a robust and dynamic system.",
     tags: [
       {
-        name: "react",
+        name: "UML",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "MERN stack",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "MUI",
         color: "pink-text-gradient",
       },
+      {
+        name: "Webpack",
+        color: "white-text-gradient",
+      },
     ],
-    image: jobit,
+    image: tangerm,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "Web 3.0 Blockchain Crowdfunding Application",
+    description: "A cutting-edge web application utilizing Solidity for smart contract development, Thirdweb for blockchain interaction, Git and GitHub for version control, React for the frontend, and Tailwind CSS for styling. The project focuses on implementing crowdfunding functionalities on the blockchain.",
     tags: [
       {
-        name: "nextjs",
+        name: "Solidity",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Thirdweb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Git",
         color: "pink-text-gradient",
       },
+      {
+        name: "GitHub",
+        color: "white-text-gradient",
+      },
     ],
-    image: tripguide,
+    image: blockchain,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Documentary Film Application 'DocFilms'",
+    description: "'DocFilms' is a documentary film application developed with .NET (C#), utilizing SQL Server for database management, MVC for a structured architecture, and Bootstrap for responsive and visually appealing design. It provides a comprehensive platform for managing and viewing documentary films.",
+    tags: [
+      {
+        name: ".NET(C#)",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SQL Server",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MVC",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "white-text-gradient",
+      },
+    ],
+    image: docfilms,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Web Advertisement Management Application",
+    description: "Employing Merise for database design, PHP for server-side scripting, MySQL for data storage, PowerAMC for modeling, and jQuery along with Bootstrap for enhanced user interface features. The application serves as a robust system for managing and displaying online advertisements.",
+    tags: [
+      {
+        name: "Merise",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PHP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "PowerAMC",
+        color: "white-text-gradient",
+      },
+    ],
+    image: annance,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Traffic Generation by Referral Application",
+    description: "This project involves the development of a web application using HTML, CSS, JavaScript, jQuery, and Bootstrap. The focus is on creating a user-friendly platform for generating traffic through referral mechanisms, providing a seamless experience for users.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "jQuery",
+        color: "white-text-gradient",
+      },
+    ],
+    image: refferal,
     source_code_link: "https://github.com/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+
+export { navLinks, services, technologies, experiences, projects };

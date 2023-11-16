@@ -7,10 +7,10 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
-  <div className='xs:w-[250px] w-full'>
+  <div className="xs:w-[250px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
     >
       <div
         options={{
@@ -18,15 +18,15 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
       >
         <img
           src={icon}
-          alt='web-development'
-          className='w-16 h-16 object-contain'
+          alt="web-development"
+          className="w-16 h-16 object-contain"
         />
 
-        <h3 className='text-white text-[20px] font-bold text-center'>
+        <h3 className="text-white text-[20px] font-bold text-center">
           {title}
         </h3>
       </div>
@@ -44,16 +44,25 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        👋 Hello! I'm a dedicated full-stack developer currently in my 5th year
+        of computer engineering studies. My expertise lies in JavaScript, and I
+        have hands-on experience with powerful frameworks like React, Node.js,
+        express.js, and MUI.
+        <br /> <br />
+        🚀 I thrive on challenges, and my commitment to creating efficient,
+        scalable, and user-friendly solutions has been honed through
+        collaborating closely with clients. As a quick learner, I'm passionate
+        about transforming innovative ideas into tangible, real-world solutions.{" "}
+        <br /><br />
+        💡 Let's work together to bring your ideas to life! I'm eager to
+        contribute my skills and knowledge to a dynamic team. Open to new
+        opportunities, I'm excited about the prospect of making a meaningful
+        impact in the world of software development.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

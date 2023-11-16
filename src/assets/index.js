@@ -20,13 +20,29 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+//////////////////////
+import webpack from "./tech/webpack.png";
+import php from "./tech/php.png";
+import solidity from "./tech/solidity.png";
+
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
-import tangermed from "./company/tangermed.png";
 
-import carrent from "./carrent.png";
+///////////////////////
+import tangermed from "./company/tangermed.png";
+import oneeicon from "./company/oneeicon.png";
+
+
+
+import blockchain from "./blockchain.png";
+import annance from "./annance.png";
+import tangerm from "./tangerm.png";
+import docfilms from "./docfilms.png";
+import refferal from "./refferal.png";
+import strapi from "./strapi.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -55,8 +71,20 @@ export {
   meta,
   shopify,
   starbucks,
-  tangermed,
-  carrent,
   jobit,
   tripguide,
+
+  /////////////
+  oneeicon,
+  webpack,
+  tangermed,
+  php,
+  solidity,
+  /////////////
+  tangerm,
+  strapi,
+  refferal,
+  docfilms,
+  annance,
+  blockchain,
 };
