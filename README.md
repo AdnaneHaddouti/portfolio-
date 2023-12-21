@@ -2,7 +2,7 @@
 
 Welcome to my GitHub portfolio! This repository showcases my skills, projects, and experiences in the field of Full Stack Web Development. Feel free to explore and learn more about my journey.
 
-## About Me
+##About Me
 
 I am Adnane Haddouti, a Full Stack Web Developer with a focus on Frontend and Backend technologies. Currently, I am a 5th-year student pursuing a degree in Computer Science and Networks, specializing in MIAGE. Fluent in French and Arabic, I am passionate about emerging technologies and eager to contribute proactively with my skills in software development and project management.
 
