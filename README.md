@@ -15,6 +15,7 @@ I am Adnane Haddouti, a Full Stack Web Developer with a focus on Frontend and Ba
 - Outils: Node.js, Strapi (Headless CMS), React, MUI
 ### Application de Gestion des Révisions
 - Outils: UML, MERN stack, MUI, Webpack
+- 
 
 ## Certifications
 - Java Microservices with Spring Boot and Spring Cloud (Coursera)
