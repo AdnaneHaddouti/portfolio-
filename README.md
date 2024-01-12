@@ -29,5 +29,5 @@ I am Adnane Haddouti, a Full Stack Web Developer with a focus on Frontend and Ba
 Feel free to reach out to me via email at adnanehaddouti@gmail.com.
 ## Acknowledgments
 Thank you for visiting my portfolio! You can also connect with me on 
-[LinkedIn](https://www.linkedin.com/in/adnane-haddouti) and check out my projects on [GitHub](https://github.com/AdnaneHD).
+[LinkedIn](https://www.linkedin.com/in/adnane-haddouti) and check out my projects on [GitHub](https://github.com/AdnaneHD)
 
